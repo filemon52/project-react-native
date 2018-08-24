@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default class App extends React.Component {
   render() {
@@ -8,6 +8,7 @@ export default class App extends React.Component {
         <Text>Filemon Steven Juliyanto</Text>
         <Text>XI RPL 2</Text>
         <Text>19</Text>
+        <Image source={require('./gb1.jpg')} style={{width: 100, height: 100}} />
        </View>
     );
   }
